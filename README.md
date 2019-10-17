@@ -2,8 +2,6 @@
 
 The extraction and understanding of temporal events and their relations are major challenges in natural language processing. Processing text on a sentence-by-sentence or expression-by-expression basis often fails, in part due to the challenge of capturing the global consistency of the text. We present an ensemble method, which reconciles the outputs of multiple classifiers of temporal expressions across the text using integer programming. Computational experiments show that the ensemble improves upon the best individual results from two recent challenges, SemEval-2013 TempEval-3 (Temporal Annotation) and SemEval-2016 Task 12 (Clinical TempEval).
 
-_This project originated in University College Dublin Michael Smurfit Graduate Business School in 2014, as an MSc in Business Analytics, suggested by Dr. Jakub Mareček (IBM Research), and undertaken by Terri Hoare and Catherine Kerr under supervision of Dr. Paula Carroll (UCD School of Business) and Dr. Jakub Mareček (IBM Research). Already the first version provided best-known results on SemEval-2013. Subsequently, the best-known performance in terms of F1 scores has been demonstrated on the SemEval-2016 in 2016 and automation of the construction of the ensemble and ROC curves has been added in 2018. The code was written by Catherine Kerr in collaboration with Dr. Jakub Mareček._
-
 If you use the code, please also cite our paper: 
 
       @article{Kerr2020,
@@ -17,9 +15,11 @@ If you use the code, please also cite our paper:
         eprint    = {1412.1866},
       }
 
-The data we trained on are available from the original authors. 
+_This project originated in University College Dublin Michael Smurfit Graduate Business School in 2014, as an MSc in Business Analytics, suggested by Dr. Jakub Mareček (IBM Research), and undertaken by Terri Hoare and Catherine Kerr under supervision of Dr. Paula Carroll (UCD School of Business) and Dr. Jakub Mareček (IBM Research). Already the first version provided best-known results on SemEval-2013. Subsequently, the best-known performance in terms of F1 scores has been demonstrated on the SemEval-2016 in 2016 and automation of the construction of the ensemble and ROC curves has been added in 2018. The code was written by Catherine Kerr in collaboration with Dr. Jakub Mareček._
 
 Any questions can be directed to Jakub Marecek, `jakub [at] marecek.cz`.
+
+The data we trained on are available from the authors of the respective classifiers -- we do not have the copy right. 
 
 
 ## Set-up
